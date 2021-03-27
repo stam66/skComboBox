@@ -1,5 +1,5 @@
-# skCombobox 0.6
-A group emulating a superpowered combobox replacement:
+# skCombobox 0.7
+### A group emulating a superpowered combobox replacement:
 - placeholder text function to help guide user input
 - search as you type to highlight a value in the popup
 - New values that don’t exist in popup will show an ‘Add’ button to modify popup i
@@ -12,7 +12,7 @@ A group emulating a superpowered combobox replacement:
 - resize the height/width of  the popup list by adjusting the dimensions of the group 
   (make sure 'Select Group' is inactive or group won't resize properly!)
 
-## API
+# API
 ### - setValueList pValueList
 Populates the popup values with the return-delimited list pValueList
 Equivalent to setting the text of a button “ComboBox Menu”
@@ -43,8 +43,20 @@ Example: send “getValueList” to group “comboBox —> ‘the result' now co
 clears the popup list and entry field of all values
 Example: send “clearCombo” to group “comboBox”
 
+### - initState
+forces popup closed when card/group containing combobox opens and display either value or the 
+uPlaceholderText correctly
+Example: send "initState" to group "comboBox"
+
+
 
 # CHANGE LOG
+### Version 0.7
+ - corrected a minor styling issue when first opening the field
+ - added new command 'initState' - this forces the combobox to not display any values when the card or
+   or group containing this is first openened, and displays correctly value or the uPlaceholderText
+ - minor change to close popuplist when value selected
+
 ### Version 0.6
  - corrected error with get functions, removed unnecessary custom properties
  - added placeholder text functionality
