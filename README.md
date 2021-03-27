@@ -14,39 +14,38 @@
 
 # API
 ### - setValueList _pValueList_
-Populates the popup values with the return-delimited list pValueList
-Equivalent to setting the text of a button “ComboBox Menu”
-Example: dispatch “setValueList” to group “comboBox”  with tValueList
+Populates the popup values with the return-delimited list pValueList. 
+Equivalent to setting the text of a button “ComboBox Menu”. 
+_Example: dispatch “setValueList” to group “comboBox”  with tValueList_
 
 ### - setValue _pValue_
 Sets the displayed/selected text 
-Equivalent to setting the label of a button “ComboBox Menu”
-Example: dispatch “setValue” to group “comboBox" with tValue
+Equivalent to setting the label of a button “ComboBox Menu”. 
+_Example: dispatch “setValue” to group “comboBox" with tValue_
 
 ### - setPlaceholderText _pText_
-Sets the placeholder text to the supplied parameter
-Example: dispatch “setPlaceholderText” to group “comboBox” with tText
+Sets the placeholder text to the supplied parameter. 
+_Example: dispatch “setPlaceholderText” to group “comboBox” with tText_
 
 ### - getPlaceholderText
-Get the placeholder text 
-Example: send “getPlaceholderText” to group “comboBox —> ‘the result’ now contains the placeholder text
+Get the placeholder text. 
+_Example: send “getPlaceholderText” to group “comboBox —> ‘the result’ now contains the placeholder text_
 
 ### - getValue
-Gets the displayed/selected text 
-Example: send “getValue” to group “comboBox —> ‘the result’ now contains the selected value
+Gets the displayed/selected text. 
+_Example: send “getValue” to group “comboBox —> ‘the result’ now contains the selected value_
 
 ### - getValueList
-Gets the list displayed in the popup (return delimited list)
-Example: send “getValueList” to group “comboBox —> ‘the result' now contains the selected value
+Gets the list displayed in the popup (return delimited list). 
+_Example: send “getValueList” to group “comboBox —> ‘the result' now contains the selected value_
 
 ### - clearCombo
-clears the popup list and entry field of all values
-Example: send “clearCombo” to group “comboBox”
+Clears the popup list and entry field of all values. 
+_Example: send “clearCombo” to group “comboBox”_
 
 ### - initState
-forces popup closed when card/group containing combobox opens and display either value or the 
-uPlaceholderText correctly
-Example: send "initState" to group "comboBox"
+forces popup closed when card/group containing combobox opens and display either value or the uPlaceholderText correctly. 
+_Example: send "initState" to group "comboBox"_
 
 
 
