@@ -16,7 +16,7 @@
 ### - setValueList _pValueList_
 Populates the popup values with the return-delimited list pValueList
 Equivalent to setting the text of a button “ComboBox Menu”
-Example: dispatch “populateCombo” to group “comboBox”  with tValueList
+Example: dispatch “setValueList” to group “comboBox”  with tValueList
 
 ### - setValue _pValue_
 Sets the displayed/selected text 
