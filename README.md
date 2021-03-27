@@ -13,17 +13,17 @@
   (make sure 'Select Group' is inactive or group won't resize properly!)
 
 # API
-### - setValueList pValueList
+### - setValueList _pValueList_
 Populates the popup values with the return-delimited list pValueList
 Equivalent to setting the text of a button “ComboBox Menu”
 Example: dispatch “populateCombo” to group “comboBox”  with tValueList
 
-### - setValue pValue
+### - setValue _pValue_
 Sets the displayed/selected text 
 Equivalent to setting the label of a button “ComboBox Menu”
 Example: dispatch “setValue” to group “comboBox" with tValue
 
-### - setPlaceholderText pText
+### - setPlaceholderText _pText_
 Sets the placeholder text to the supplied parameter
 Example: dispatch “setPlaceholderText” to group “comboBox” with tText
 
