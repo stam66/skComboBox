@@ -1,5 +1,5 @@
-# skCombobox 0.7
-#### A group emulating a superpowered combobox replacement:
+# skCombobox - a better comboBox for LiveCode
+#### A LiveCode group emulating an enhanced combobox replacement:
 - placeholder text function to help guide user input
 - search as you type to highlight a value in the popup
 - New values that don’t exist in popup will show an ‘Add’ button to modify popup i
