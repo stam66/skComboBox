@@ -4,6 +4,15 @@
 Current version: 0.9 ([changelog](/changelog.md))  
 Code simplified and updated; appearance updated. The entire code is in the group script (potentially to convert to script widget).
 
+### Features
+- Placeholder text function to help guide user input
+- Search as you type to highlight a value in the popup
+- Show/hide popup list with the return or escape keys
+- Arrow key navigation of popup list
+- Select a value in the popup list with the return or enter keys (or click on value)
+- Get/Set the textContent, listContent, placeholderText. Properteis with getters/setters listed below
+- On setting text content, a "comboAction" message is emitted to pass the long id of the group and its text
+
 ### API
 #### Public handlers
 - _resetProps_: Command to reset all properties to default values
