@@ -18,7 +18,7 @@ Code simplified and updated; appearance updated. The entire code is in the group
 - _resetProps_: Command to reset all properties to default values
 
 #### Messages
-- _comboAction_ pID, pText: emitted when setting the textContent - can be handled further up the message path and passes the long id of the group and the textContent of the group.  
+- _comboAction pID, pText_: emitted when setting the textContent - can be handled further up the message path and passes the long id of the group and the textContent of the group.  
   
 **Text content properties**  
 - _textContent_: get/set the text typed or selected (string)  
