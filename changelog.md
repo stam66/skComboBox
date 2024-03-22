@@ -1,3 +1,18 @@
+**Version 0.91**  
+Bug fixes for isses:  
+- escape not working as intended
+- return not working as intended and also setting value when dropdown closed
+- not commiting value on clicking out of field
+- comboAction transmitting the placeholder text when no value set
+  
+**Version 0.9**  
+- simplified and streamlined
+- all code now resides in group script
+- All properties have getters/setters
+- Simplified getting/setting textContent and listContent
+- _comboAction_ message emitted on setting textContent to handle text change
+  
+  
 **Version 0.8**  
 A LiveCode group emulating an enhanced combobox replacement:  
 Placeholder text function to help guide user input  
