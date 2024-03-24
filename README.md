@@ -1,7 +1,7 @@
 # skCombobox - a better comboBox for LiveCode
 #### A LiveCode group emulating an enhanced combobox replacement  
 
-Current version: 0.9 ([changelog](/changelog.md))  
+Current version: 0.92 ([changelog](/changelog.md))  
 Code simplified and updated; appearance updated. The entire code is in the group script (potentially to convert to script widget).
 
 ### Features
@@ -12,6 +12,8 @@ Code simplified and updated; appearance updated. The entire code is in the group
 - Select a value in the popup list with the return or enter keys (or click on value)
 - Get/Set the textContent, listContent, placeholderText. Properteis with getters/setters listed below
 - On setting text content, a "comboAction" message is emitted to pass the long id of the group and its text
+- Reiszing when collapsed resizes with of the widget and the height of the field (not restricted to default/OS height)
+- Resizing when expanded resizes the width of the widgt and the height of the dropdown. Dropdown will remain visible when switching to pointer tool if the mouse within the rect of the group or if optionKey is down.
 
 ### API
 #### Public handlers
