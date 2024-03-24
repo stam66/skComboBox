@@ -1,3 +1,9 @@
+Version 0.92  
+- fixed multiple regression errors affecting display of dropdown
+- New: the rect of group changes depending on whether dropdown is visible or not.
+- New: resizing when collapsed resizes field only. Resizing with dropdown showing resizes the dropdown only. The dropdown will remain expanded when switchigng to Pointer tool if the mouse is within the rect of the group or if the option key is down.
+
+
 **Version 0.91**  
 Bug fixes for isses:  
 - escape not working as intended
