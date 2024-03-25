@@ -3,8 +3,11 @@
 
 Current version: 0.94.1 ([changelog](/changelog.md))  
 Code simplified and updated; appearance updated. The entire code is in the group script (potentially to convert to script widget).
-New: Stack to place or copy an skComboBox and to edit any skComboBox selected in the IDE
+![Screenshot 2024-03-25 at 19 48 29](https://github.com/stam66/skComboBox/assets/5677273/61bad385-9d8e-4892-acea-3b73c4c73df2)  
 
+The plugin comes with a stack to place or copy an skComboBox and to edit any skComboBox selected in the IDE
+![Screenshot 2024-03-25 at 19 48 38](https://github.com/stam66/skComboBox/assets/5677273/83ccda98-f26b-4a5e-a017-fd33ba545cdf)
+  
 ### Features
 - Placeholder text function to help guide user input
 - Search as you type to highlight a value in the popup
