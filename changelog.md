@@ -1,13 +1,20 @@
+**Version 0.94**  
+- Added text sizing
+- Now is a stack that allows to place (on the topstack) or copy (if no topstack, or if optionKey is down) an skComboBox and to edit any skComboBox's properties when selected in the IDE
+- Numerous bug fixes
+- TODO: center field entry vertically
+
 **Version 0.93**  
-- Replaced the datagrid that was as dropdown with listField - lighter footprint, easier to copy to other stacks, especially in preparation of future script widget.  
+- Replaced the datagrid that was as dropdown with listField - lighter footprint, easier to copy to other stacks, especially in preparation of future script widget.
 - same features as previously, including dynamic vertical scrollbar for dropdown implementd for the listField dropdown.
 
 **Version 0.92**  
 - fixed multiple regression errors affecting display of dropdown
 - New: the rect of group changes depending on whether dropdown is visible or not.
 - New: resizing when collapsed resizes field only. Resizing with dropdown showing resizes the dropdown only. The dropdown will remain expanded when switchigng to Pointer tool if the mouse is within the rect of the group or if the option key is down.
+- New: Added groupColor (background) and groupHiliteColor (hilite) that affect both entry field and dropdown
 
-
+  
 **Version 0.91**  
 Bug fixes for isses:  
 - escape not working as intended
