@@ -2,7 +2,7 @@
 - Added text sizing
 - Now is a stack that allows to place (on the topstack) or copy (if no topstack, or if optionKey is down) an skComboBox and to edit any skComboBox's properties when selected in the IDE
 - Numerous bug fixes
-- TODO: center field entry vertically
+- New: centers field entry vertically
 
 **Version 0.93**  
 - Replaced the datagrid that was as dropdown with listField - lighter footprint, easier to copy to other stacks, especially in preparation of future script widget.
