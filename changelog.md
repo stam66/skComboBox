@@ -1,8 +1,14 @@
+**Version 0.94.1**  
+- Added vertical centering for field entry - centers on resizing with dropdown collapsed
+- Feature complete
+- Remaining issues:
+  - If field showing placeholder text, this can be disappear when entering pointer tool in IDE (but functions normally)
+  - Weird issue trying to grab group to resize - sometimes not possible to grab
+
 **Version 0.94**  
 - Added text sizing
 - Now is a stack that allows to place (on the topstack) or copy (if no topstack, or if optionKey is down) an skComboBox and to edit any skComboBox's properties when selected in the IDE
 - Numerous bug fixes
-- New: centers field entry vertically
 
 **Version 0.93**  
 - Replaced the datagrid that was as dropdown with listField - lighter footprint, easier to copy to other stacks, especially in preparation of future script widget.
