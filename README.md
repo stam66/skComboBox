@@ -1,7 +1,7 @@
 # skCombobox - a better comboBox for LiveCode
 #### A LiveCode group emulating an enhanced combobox replacement  
 
-Current version: 0.92 ([changelog](/changelog.md))  
+Current version: 0.93 ([changelog](/changelog.md))  
 Code simplified and updated; appearance updated. The entire code is in the group script (potentially to convert to script widget).
 
 ### Features
