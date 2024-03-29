@@ -1,3 +1,7 @@
+**Version 0.95**  
+- Added ability to drag/drop the group control from the controller stack
+- Layout of controller stack cleared up
+
 **Version 0.94.1**  
 - Added vertical centering for field entry - centers on resizing with dropdown collapsed
 - Feature complete
