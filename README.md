@@ -1,15 +1,6 @@
 # skCombobox - a better comboBox for LiveCode
-#### A LiveCode group emulating an enhanced combobox replacement  
-
+#### A LiveCode group control as enhanced combobox replacement
 Current version: 0.95 ([changelog](/changelog.md))  
-Drag & drop to a topLevel stack, or double-click to place on a topLevel stack; option-double click to copy (if no topLevel stack then double-click to copy).  
-<img width="212" alt="skComboBox" src="https://github.com/stam66/skComboBox/assets/5677273/b6f28b4a-94a0-429b-9f9d-e921583c473e">
-
-
-Stack intended as plugin. Use stack to drag/drop, place or copy an skComboBox on a topLevel stack.  
-Selecting a placed group allows editing of properties in the plugin stack.  
-
-
   
 ### Features
 - Placeholder text function to help guide user input
@@ -21,7 +12,13 @@ Selecting a placed group allows editing of properties in the plugin stack.
 - On setting text content, a "comboAction" message is emitted to pass the long id of the group and its text
 - Reiszing when collapsed resizes with of the widget and the height of the field (not restricted to default/OS height)
 - Resizing when expanded resizes the width of the widgt and the height of the dropdown. Dropdown will remain visible when switching to pointer tool if the mouse within the rect of the group or if optionKey is down.
-
+  
+### Usage
+Stack intended as plugin. Drag & drop to a topLevel stack, or double-click to place on a topLevel stack; option-double click to copy (if no topLevel stack then double-click to copy). Selecting a placed group allows editing of properties in the plugin stack.  
+skComboBox | Controller
+:--- | :---
+<img width="212" alt="skComboBox" src="https://github.com/stam66/skComboBox/assets/5677273/b6f28b4a-94a0-429b-9f9d-e921583c473e"> | <img width="212" alt="Controller" src="https://github.com/stam66/skComboBox/assets/5677273/45148d1f-6ee4-48b9-ab97-60c467be091c">  
+  
 ### API
 #### Public handlers
 - _resetProps_: Command to reset all properties to default values
