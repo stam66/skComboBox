@@ -1,12 +1,15 @@
 # skCombobox - a better comboBox for LiveCode
 #### A LiveCode group emulating an enhanced combobox replacement  
 
-Current version: 0.94.1 ([changelog](/changelog.md))  
-Code simplified and updated; appearance updated. The entire code is in the group script (potentially to convert to script widget).
-![Screenshot 2024-03-25 at 19 48 29](https://github.com/stam66/skComboBox/assets/5677273/61bad385-9d8e-4892-acea-3b73c4c73df2)  
+Current version: 0.95 ([changelog](/changelog.md))  
+Drag & drop to a topLevel stack, or double-click to place on a topLevel stack; option-double click to copy (if no topLevel stack then double-click to copy).  
+<img width="212" alt="skComboBox" src="https://github.com/stam66/skComboBox/assets/5677273/b6f28b4a-94a0-429b-9f9d-e921583c473e">
 
-The plugin comes with a stack to place or copy an skComboBox and to edit any skComboBox selected in the IDE
-![Screenshot 2024-03-25 at 19 48 38](https://github.com/stam66/skComboBox/assets/5677273/83ccda98-f26b-4a5e-a017-fd33ba545cdf)
+
+Stack intended as plugin. Use stack to drag/drop, place or copy an skComboBox on a topLevel stack.  
+Selecting a placed group allows editing of properties in the plugin stack.  
+
+
   
 ### Features
 - Placeholder text function to help guide user input
