@@ -14,7 +14,8 @@ Current version: 0.96 ([changelog](/changelog.md))
 - Resizing when expanded resizes the width of the widgt and the height of the dropdown. Dropdown will remain visible when switching to pointer tool if the mouse within the rect of the group or if optionKey is down.
   
 ### Usage
-Stack intended as plugin. Drag & drop to a topLevel stack, or double-click to place on a topLevel stack; option-double click to copy (if no topLevel stack then double-click to copy). Selecting a placed group allows editing of properties in the plugin stack.  
+Stack intended as plugin. Drag & drop or double-click to place on a topLevel stack.  
+Selecting a placed group allows editing of properties in the plugin/controller stack.  
 skComboBox | Controller
 :--- | :---
 <img width="212" alt="skComboBox" src="https://github.com/stam66/skComboBox/assets/5677273/b6f28b4a-94a0-429b-9f9d-e921583c473e"> | <img width="212" alt="Controller" src="https://github.com/stam66/skComboBox/assets/5677273/45148d1f-6ee4-48b9-ab97-60c467be091c">  
