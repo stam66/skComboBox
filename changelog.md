@@ -1,3 +1,8 @@
+**Version 0.96**  
+- Controller stack's drag/drop code refactored. The option to copy has been removed. Either double-clik or drag & drop to place
+- Addressed an issue with text entry in the controller stack
+- Minor fixes
+
 **Version 0.95**  
 - Added ability to drag/drop the group control from the controller stack
 - Layout of controller stack cleared up
