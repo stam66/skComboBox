@@ -1,3 +1,8 @@
+**Version 0.96.1**  
+- Minor fixes for text entry in the controller stack
+- Tooltips changed to reflect actual property names
+- Made it more obvious that no properteis can be changed when no skCombobox is selected
+  
 **Version 0.96**  
 - Controller stack's drag/drop code refactored. The option to copy has been removed. Either double-clik or drag & drop to place
 - Addressed an issue with text entry in the controller stack
