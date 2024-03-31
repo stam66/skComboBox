@@ -1,3 +1,7 @@
+**Version 0.96.2**  
+- Fixed minior issue with reset to default properties
+- Changed how properties become editable: instead of a graphic covcering the controls to indicate they're inaccessible, the palette resizes to show the properites when an skComboBox is selected and hide when not.
+
 **Version 0.96.1**  
 - Minor fixes for text entry in the controller stack
 - Tooltips changed to reflect actual property names
