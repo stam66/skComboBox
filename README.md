@@ -16,8 +16,8 @@ Current version: 0.96.2 ([changelog](/changelog.md))
 ### Usage
 Stack intended as plugin. Drag & drop or double-click to place on a topLevel stack.  
 Selecting a placed group allows editing of properties in the plugin/controller stack.  
-skComboBox | Controller when no selection | Controler when an skComboBox is selected
-:--- | :--- | :---
+skComboBox | Controller when no selection | When an skComboBox is selected
+:--- | :--- | ---
 <img width="212" alt="skComboBox" src="https://github.com/stam66/skComboBox/assets/5677273/b6f28b4a-94a0-429b-9f9d-e921583c473e"> | <img width="250" alt="Screenshot 2024-03-31 at 11 11 14" src="https://github.com/stam66/skComboBox/assets/5677273/407bdc30-ee1f-4461-8b93-8ad44265ffe7"> | <img width="250" alt="Screenshot 2024-03-31 at 11 11 21" src="https://github.com/stam66/skComboBox/assets/5677273/6ba5ea52-075a-4c5a-a47d-cd37ab9de32f">
 
 
