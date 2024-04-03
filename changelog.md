@@ -1,3 +1,6 @@
+**Version 0.96.3**  
+- Fixed issue with arrow/scroll navigation affecting the widget even when not in focus  
+
 **Version 0.96.2**  
 - Fixed minior issue with reset to default properties
 - Changed how properties become editable: instead of a graphic covcering the controls to indicate they're inaccessible, the palette resizes to show the properites when an skComboBox is selected and hide when not.
