@@ -27,7 +27,7 @@ skComboBox | Controller when no selection | When an skComboBox is selected
 - _resetProps_: Command to reset all properties to default values
 
 #### Messages
-- _comboAction pID, pText_: emitted when setting the textContent - can be handled further up the message path (eg card or stack) and passes the long id of the group and the textContent of the group.  
+- _comboAction pID, pText_: emitted when setting the textContent - can be handled further up the message path (eg parent, card or stack) and passes the long id of the group and the textContent of the group.  
   
 **Text content properties**  
 - _textContent_: get/set the text typed or selected (string)  
