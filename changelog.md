@@ -1,3 +1,7 @@
+**Version 0.96.4**
+- Fixed an issue with dropdown not obscuring and no comboAction emitting when tabbing out of field
+- comboAction will now fire on exiting the field (the message will be emitted from the "action" which is tabbing out of the field. This means pID is the long id and pText is the text of the field left).
+
 **Version 0.96.3**  
 - Fixed issue with arrow/scroll navigation affecting the widget even when not in focus  
 
