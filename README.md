@@ -1,6 +1,6 @@
 # skCombobox - a better comboBox for LiveCode
 #### A LiveCode group control for an enhanced combobox control
-Current version: 0.96.3 ([changelog](/changelog.md))  
+Current version: 0.96.4 ([changelog](/changelog.md))  
   
 ### Features
 - Placeholder text function to help guide user input
